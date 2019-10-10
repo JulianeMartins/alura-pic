@@ -7,8 +7,10 @@
       <a (click)="logout()">(Logout)</a>
     </div>
     <ng-template #login>
-      <span>
-        Please, login!
+      <span class="navbar-text">
+        <a [routerLink]="['']">
+          Please, login!
+        </a>
       </span>
     </ng-template>
   </nav>
