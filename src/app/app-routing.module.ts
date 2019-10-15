@@ -8,7 +8,6 @@ import { PhotoListResolver } from './photos/photo-list/photo-list.resolver';
 import { AuthGuard } from './core/auth/auth.guard';
 import { PhotoDetailsComponent } from './photos/photo-details/photo-details.component';
 
-
 const routes: Routes = [
   {
     path: '',
