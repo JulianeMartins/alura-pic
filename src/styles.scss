@@ -1,2 +1,6 @@
 @import 'variables';
 @import '../node_modules/font-awesome/scss/font-awesome';
+
+.break-word {
+  word-break: break-all;
+}
