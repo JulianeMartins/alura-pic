@@ -33,8 +33,7 @@ const routes: Routes = [
   },
   { 
     path: 'p/:photoId',
-    component: PhotoDetailsComponent,
-    canActivate: [AuthGuard]
+    component: PhotoDetailsComponent
   },
   { 
     path: 'not-found',
