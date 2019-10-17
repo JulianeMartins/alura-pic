@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AlertModule } from '../shared/components/alert/alert.module';
 import { LoadingModule } from '../shared/components/loading/loading.module';
 import { MenuModule } from '../shared/components/menu/menu.nodule';
+import { ShowIfLoggedModule } from '../shared/directives/show-if-logged/show-if-logged.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MenuModule } from '../shared/components/menu/menu.nodule';
     RouterModule,
     AlertModule,
     LoadingModule,
-    MenuModule
+    MenuModule,
+    ShowIfLoggedModule
   ],
   providers: [
     {
